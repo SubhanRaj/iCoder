@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 /* Button Styling */
 .btn {
@@ -60,7 +63,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
-    
+
 }
 
 .navlist {
@@ -164,7 +167,7 @@
 /* About Us */
 
 .section {
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -234,39 +237,3 @@
     color: black;
 }
 
-/* Adding media queries */
-
-@media screen and (max-width: 1015px) {
-    .navbar {
-        height: 450px;
-        flex-direction: column;
-        transition: all 0.7s ease-in-out;
-    }
-
-    .navlist {
-        flex-direction: column;
-    }
-
-    .rightNav {
-        text-align: center;
-    }
-
-    #search {
-        width: 100%;
-    }
-
-    .burger {
-        display: block;
-    }
-
-    .h-nav {
-        height: 72px;
-    }
-
-    .v-class {
-        opacity: 0;
-    }
-
-
-
-}
