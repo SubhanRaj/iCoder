@@ -121,3 +121,25 @@ font-size: 41px;
     color: white;
     cursor: pointer;
 }
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.secRight{
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.paras {
+    padding: 0 65px;
+}
+
+.imgFluid {
+    height: 350px;
+}
