@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -127,17 +129,30 @@ font-size: 41px;
     vertical-align: middle;
 }
 
-.secRight{
+.section {
     height:500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
+    font-family: 'Ubuntu',sans-serif;
+    padding: 10px;
+    margin-top: 5%;
+}
+.section-left{
+    flex-direction: row-reverse;
+    margin-top: 5%;
+    
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .paras {
-    padding: 0 65px;
+    padding: 0px 65px;
+    margin-top: 10%;
 }
 
 .imgFluid {
